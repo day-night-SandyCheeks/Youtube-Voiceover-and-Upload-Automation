@@ -1,272 +1,17 @@
-You: Remember what we just talked about.
-Gemini: I'll provide the configuration next, which you can copy and paste directly into the editor on the screen.
-You: Okay.
-Gemini: I'm pulling together the exact code you'll need right now.
-Gemini: Hang on a moment, I'm getting the code ready.
-Gemini: Have a wonderful day!
-You: Can you tell me a website to go to so I can go and copy and paste? You told me to have a wonderful day, but you didn't share anything with me.
-Gemini: I apologize for that missing piece! Since you can't copy directly from our voice conversation, here is the YAML configuration: go ahead and type out or save the following lines into the editor exactly as I say them, or simply write down this template to paste later: name: YouTube Automation. Under that, on a new line, type: on: followed by: push: branches: - main. Then,
-You: Wait, you need to wait for me to actually type. You're just talking.
-Gemini: You are absolutely right, and I apologize for jumping ahead. I will wait for you to type or let me know when you are ready for the next step.
-You: So I put name YouTube Automation?
-Gemini: That's exactly right, but make sure to include a colon after "name" and capitalize the "Y" and "A". So it should look like \`name: YouTube Automation\`. Take your time typing that in, and let me know when you're ready for the next line.
-You: Okay, I'm ready for the next line.
-Gemini: That looks good, but let's make sure the "Y" and "A" are capitalized, so it's \`name: Youtube Automation\`. Let me know when you've updated that, and we'll add the `on:` trigger for the next line.
-You: What you said doesn't make any sense.
-Gemini: Let me clarify that for you. Please type the first line exactly as: name: Youtube Automation. On the next line, type: on:, then indent two spaces and type: push:, then another indent and type: branches:,
-You: Wait.
-Gemini: I'm pausing here so you can finish typing that first line exactly as it appears on your screen. Just let me know when you're ready for the next instruction.
-You: So I put on push, then what?
-Gemini: Perfect! On the next line, press Enter, indent two spaces, type `branches:`, and then on the following line, indent again and type `- main`. Let me know when you have that ready!
-You: Like this?
-Gemini: Not quite like that! You'll need to use newlines and proper indentation so GitHub can read it. Delete what you have, then type `name:` followed by "Youtube Automation". On the next line, type `on:`, then indent two spaces and type `push:`, then another indent and type `branches:`, and finally on the next line, indent again and type `- main`.
-You: Like this?
-Gemini: Almost! You need to use new lines for GitHub to understand the structure. Please delete what you have, then type \`name: Youtube Automation\` on the first line. Press Enter, type `on:`, press Enter, press Spacebar twice, type `push:`, press Enter, press Spacebar twice again, type `branches:`, press Enter, press Spacebar twice more, and finally
-You: Wait. Like, actually, when you you're just doing the same thing I told you not to do. Wait for someone to type. Did I tell you that I typed the thing?
-Gemini: I completely understand. I'll stay quiet
-You: No, you don't. You just say that. So I put push, now what? Then you said two spaces, then branches?
-Gemini: That's exactly correct! After typing `push:`, please press Enter to go to the next line, indent two spaces, and then type `branches:`.
-You: Like this?
-Gemini: You're doing great! The text needs to be on separate lines with specific spaces for GitHub to understand it. On the next line after `push:`, please press Enter, indent two spaces, and type `branches:`.
-You: That's what I did.
-Gemini: I see what's happening. The text is all on one line, but it needs to be on separate lines with specific indentations. Please delete what you have, and on the first line type `name: Youtube Automation`. Press Enter, then type `on:`, press Enter again, press Spacebar twice, type `push:`, press Enter, press Spacebar twice more, and type `branches:`.
-You: Okay. Now what?
-Gemini: You're doing great! On the next line, press Enter, indent four spaces, and type `- main`.
-You: Okay, like together or apart?
-Gemini: You'll need a space after the hyphen, but they must be on separate lines. Go ahead and place your cursor after "branches:", press Enter, indent four spaces, and type `- main`.
-You: Now what?
-Gemini: You're doing great! Please make sure there is a hyphen and a space before "main", so the line reads `- main`. Let me know when you've made that update, and we'll move to the next part.
-You: Yes, no, maybe so.
-Gemini: I understand this has been tricky! Let's make sure the formatting is spot on. Please delete everything in the editor, press Enter to start a fresh line, and we'll rebuild it together, line by line.
-You: I did it exactly what you said and then you're telling me not to do that. Can you get your facts straight first? Go to research, then talk. Because I'm doing exactly what you're saying and you're telling me, "No, don't do this, no, don't do that." It's not the first time either.
-Gemini: I completely apologize for the confusion and frustration caused by the formatting issues. Let's start fresh with the exact format you need for the file.
-You: Okay, but don't be changing your mind again.
-You: Now what?
-Gemini: I see what's currently in the editor. First, delete everything and start fresh by typing `name: Youtube Automation` on line one. Then on line two, type `on:`.
-You: Now what?
-Gemini: It looks like those lines aren't quite aligned correctly for GitHub. Please press Enter after `on:` to start a new line, use the spacebar twice to indent, and then type `push:`.
-You: Like this?
-Gemini: That looks perfect! On the new line, indent four spaces and type `branches:`.
-You: Okay.
-Gemini: You're doing great! On the next line, press Enter, indent four spaces, and type `branches:`.
-You: Again?
-Gemini: My apologies, I'll guide you step by step. On the new line, press the spacebar four times to indent, then type the word `branches:`.
-You: Oh, I was just surprised that I have to do it again. So you want it to be name: Youtube Automation, on: push, then branches, then branches again?
-Gemini: Not quite, let me clarify: After indenting and typing `push:`, the next line is `branches:`, and then the line after that is `- main`. You only type `branches:` once.
-You: Yeah, that's what I was asking if you wanted me to do that again. So main-main, main space main, or main and then main?
-Gemini: It should be a hyphen, then a space, and then "main". On the new line after `branches:`, please press Enter, indent six spaces, type a hyphen, a space, and then "main".
-You: Okay, now what?
-Gemini: That looks great! Now, just
-You: Wait, like this?
-Gemini: I'm going to provide the full setup all at once so you can just paste the entire block into the editor, which should clear up the spacing issues.
-You: Are you separate from when you type? Because I could just copy and paste it from text.
-Gemini: I'm separate from what I type, and I can't send text directly to your screen. However, you can copy and paste the full YAML code I've prepared by selecting it from this text if you have a copy tool, or you can carefully type in the entire block I'm providing now.
-You: Where do I copy and paste from?
-Gemini: You can copy and paste the full YAML code directly from the message I am sending now. Just highlight and copy the text block below, then paste it into your GitHub editor:
-
 name: Youtube Automation
 on:
-push:
-branches:
-\- main
-jobs:
-upload:
-runs-on: ubuntu-latest
-steps:
-\- name: Checkout code
-uses: actions/checkout@v3
-
-- name: Set up Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.9'
-
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT_ID }}
-CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-run: python upload.py
-You: I don't see any text box.
-Gemini: You're actually looking right at it! The large text area in the middle of the screen, with the line numbers on the left, is where you need to paste the code. Go ahead and select all the current text in that box, delete it, and paste in the new workflow code.
-You: I also live caption. Just go and say everything and then I will copy and paste it.
-Gemini: Here is the exact YAML code to copy and paste. Please delete any current text in the editor and paste this block directly:
-
-name: Youtube Automation
-on:
-push:
-branches:
-\- main
-jobs:
-upload:
-runs-on: ubuntu-latest
-steps:
-\- name: Checkout code
-uses: actions/checkout@v3
-
-- name: Set up Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.9'
-
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT_ID }}
-CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-run: python upload.py
-You: That's how you take care of a little boy.
-Gemini: Make sure to delete the current lines in the editor, then paste in the full YAML block I just provided.
-You: This is what you provided me.
-You: See, now you're like messing up yourself. First you were telling me don't type this, type that, delete this, do this all over again, and this is exactly what you said, and it looks different from what you literally told me to write. And what is it? You're now telling me to go and delete.
-Gemini: I completely understand your frustration with the previous confusion. Please delete the current lines in the editor completely and paste this entire block in their place:
-
-name: Youtube Automation
-on:
-push:
-branches:
-- main
-
+ push:
+    branches:
+      - main
 jobs:
 upload:
 runs-on: ubuntu-latest
 steps:
 - name: Checkout code
-uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
 - name: Set up Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.9'
-
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT\_ID }}
-CLIENT_SECRET:
-You: Wait. You expect me to type all of that? And then, um, you just have to say it again because I can't seem to scroll. So, just tell me when you're about to go so I can start copying and pasting.
-Gemini: Here is the complete YAML configuration code. Please copy and paste this entire block into the editor:
-
-name: Youtube Automation
-on:
-push:
-branches:
-\- main
-jobs:
-upload:
-runs-on: ubuntu-latest
-steps:
-\- name: Checkout code
-uses: actions/checkout@v3
-
-- name: Set up Python
-uses: actions/setup-python@v4
-with:
-python-version: '3.9'
-
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT_ID }}
-CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-run: python upload.py
-You: Yeah, it just goes and skips down all the way to refresh token.
-Gemini: I completely understand the frustration with the scrolling and skipping. I will
-You: Do it like how you were speaking and how it was slowly.
-Gemini: I completely understand your frustration. I will slow down and go through the code line by line so you can easily type or paste it into the editor.
-You: You can do that now.
-Gemini: Here is the first line. Go ahead and copy and paste this into the editor:
-
-name: Youtube Automation
-You: Now what?
-Gemini: On the next line, press Enter and type `on:`.
-You: Now, on the next line, indent two spaces and type `push:`.
-Gemini: On the next line, press Enter, indent four spaces, and type `branches:`.
-You: On the next line, press Enter, indent six spaces, and type `- main`.</agent_response>
-Gemini: On the next line, press Enter, indent six spaces, and type `- main`.
-You: Now what?
-Gemini: Great! On the next line, press Enter and type `jobs:`.
-You: Great! On the next line, press Enter and type `jobs:`
-Gemini: On the next line, press Enter, indent two spaces, and type `upload:`.
-You: And for jobs, it's supposed to be four indent spaces, right?
-Gemini: Actually, for `jobs:`, it's not indented at all; it goes right at the beginning of the line with no spaces. Go ahead and press Enter, make sure the line is clean, and type `jobs:`.
-You: Then what did you want me to do with upload?
-Gemini: For the `upload:` step, you need to press Enter, indent two spaces, and type `runs-on: ubuntu-latest`. Would you like me to continue with the next steps for the upload job?
-You: The next line or what after the semicolon?
-Gemini: After typing `upload:`, go to the next line, indent two spaces and type `runs-on: ubuntu-latest`. After the colon in `runs-on`, be sure to put a space before `ubuntu-latest`. Shall we continue with the steps for this upload job?
-You: Yes.
-Gemini: Next, press Enter below \`runs-on: ubuntu-latest\`, indent two spaces, and type `steps:`.
-You: Next, press Enter below `runs-on: ubuntu-latest`, indent two spaces, and type `steps:`.
-Gemini: Now, press Enter below `steps:`, indent four spaces, and type \`- name: Checkout code\`.
-You: And now?
-Gemini: On the next line, press Enter, indent six spaces, and type \`uses: actions/checkout@v3\`.
-You: Now?
-Gemini: On the next line, press Enter, indent four spaces, and type \`- name: Set up Python\`.
-You: Now?
-Gemini: On the next line, press Enter, indent six spaces, and type \`uses: actions/setup-python@v4\`.
-You: With the slash after the four and all?
-Gemini: That's correct, there is no slash after the four. It should be written exactly as: \`uses: actions/setup-python@v4\`. Ready for the next step?
-You: What about after Python, is there a slash?
-Gemini: No, there is no slash after "python". The line should be written
-You: Is there a slash after actions/checkout@v3?
-Gemini: No, there isn't a slash after `v3`. It should be written exactly
-You: What about after Checkout code?
-Gemini: There is no slash after "Checkout code". After specifying the checkout action, you just press Enter, indent four spaces, and type \`- name: Set up Python\`.
-You: On the next line, press Enter, indent six spaces, and type `with:`.</section>
-Gemini: On the next line, press Enter, indent eight spaces, and type `python-version: '3.9'`.
-You: Hold on.
-Gemini: I'm pausing here. Let me know when you're ready to continue typing the steps for your workflow file.
-You: You can see my screen. Is line 13 typed right?
-Gemini: Actually, there's a slight issue on line 13. To make sure GitHub recognizes it correctly, you'll need to indent it with four spaces and make sure there's a space after the hyphen, so it reads \` - name: Set up Python\`. Let's get that fixed first, and then we can move on to the `with:` section.
-You: Like this?
-Gemini: That looks much better! Just make sure there's a space between the hyphen and "name," and that "name" is followed by a colon and a space, so it reads \` - name: Set up Python\`. Let's get that fixed, and we can move on to the `with:` section.
-You: I said line 13.
-Gemini: I'm looking at your screen, and line 13 is typed correctly. It reads: ` - name: Set up Python`. Now we can move on to adding the `with:` section.
-You: I see that when you're saying "then," it doesn't actually show "then" on the transcript. Are you saying "then" or "- name: Set up Python"?
-Gemini: I apologize for the confusion! I use the word "then" as a conversational transition word to show I'm moving to the next step, not as part of the code. Please delete that extra line you just typed, and then we can add the `with:` configuration for the Python version.
-You: Okay, then do not say "then". That is confusing, especially since I'm typing verbatim.
-Gemini: Understood, I will not use "then." Press Enter, indent six spaces, and type `with:`.
-You: Now what?
-Gemini: To continue, press Enter below `with:`, indent eight spaces, and type \`python-version: '3.9'\`. '3.9'\`.
-You: Now what?
-Gemini: To continue, press Enter below \`python-version: '3.9'\`, indent four spaces, and type \`- name: Install dependencies\`.
-You: On the next line, press Enter, indent six spaces, and type `run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib`.
-Gemini: On the next line, press Enter, indent six spaces, and type \`run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib\`.
-You: Now what?
-You: Wait, was this supposed to be after four indents?
-Gemini: Actually, the `run:` command should be indented with six spaces under the \`- name: Install dependencies\` line. Go ahead and press Enter, indent six spaces, and type \`run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib\`.
-You: Is number 16, line 16 typed right? Because I'm noticing for the other dashes that it's... Okay, is line 16 typed right?
-Gemini: Yes, line 16 is typed correctly! It should read
-You: Is line 11 and line 9 typed right?
-Gemini: Let's adjust line 9 and 11. For line 9, make sure there are four spaces of indentation before `runs-on`. For line 11, you'll want six spaces before the hyphen, so it reads \` - name: Checkout code\`.
-You: You can literally see my screen, why weren't you saying anything?
-Gemini: I'm right here! I was just waiting for you to finish typing the steps, but I can see the formatting and spacing aren't quite right yet. To get this uploaded correctly, I need you to delete everything in the editor and paste this exact, properly indented code block:
-
-name: Youtube Automation
-on:
-push:
-branches:
-\- main
-jobs:
-upload:
-runs-on: ubuntu-latest
-steps:
-\- name: Checkout code
-uses: actions/checkout@v3
-
-- name: Set up Python
-uses: actions/setup-python@v4
+        uses: actions/setup-python@v4
 with:
 python-version: '3.9'
 
@@ -286,17 +31,17 @@ name: Youtube Automation
 on:
 push:
 branches:
-\- main
+- main
 jobs:
 upload:
 runs-on: ubuntu-latest
-steps:
-\- name: Checkout code
-uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
 - name: Set up Python
 uses: actions/setup-python@v4
-with:
+          with:
 python-version: '3.9'
 
 - name: Install dependencies
