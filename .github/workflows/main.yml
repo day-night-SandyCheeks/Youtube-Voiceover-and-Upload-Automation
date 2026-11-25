@@ -1,9 +1,9 @@
 name: Youtube Automation
 on:
- push:
+   push:
     branches:
       - main
-jobs:
+     jobs:
 upload:
 runs-on: ubuntu-latest
 steps:
