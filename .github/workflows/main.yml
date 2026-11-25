@@ -1,6 +1,6 @@
 name: Youtube Automation
 on:
-   push:
+  push:
     branches:
       - main
      jobs:
