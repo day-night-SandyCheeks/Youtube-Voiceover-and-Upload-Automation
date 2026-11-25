@@ -1,55 +1,29 @@
 name: Youtube Automation
+
 on:
-push:
+  push:
     branches:
       - main
-     jobs:
-upload:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout code
-        uses: actions/checkout@v3
 
-- name: Set up Python
-        uses: actions/setup-python@v4
-with:
-python-version: '3.9'
-
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT_ID }}
-CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-run: python upload.py
-You: Okay. Try that again. And tell me when you're about to go splurge so I can type everything.
-Gemini: Here is the complete YAML configuration code. Please copy and paste this entire block into the editor:
-
-name: Youtube Automation
-on:
-push:
-branches:
-- main
 jobs:
-upload:
-runs-on: ubuntu-latest
+  upload:
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-- name: Set up Python
-uses: actions/setup-python@v4
-          with:
-python-version: '3.9'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
 
-- name: Install dependencies
-run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+      - name: Install dependencies
+        run: pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-- name: Run Upload Script
-env:
-CLIENT_ID: ${{ secrets.CLIENT_ID }}
-CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-run: python upload.py
+      - name: Run Upload Script
+        env:
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+        run: python upload.py
